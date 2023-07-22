@@ -1,0 +1,33 @@
+body {
+    background-color: rgba(220, 231, 197, 0.827); /* Цвет фона страницы (например, светло-серый) */
+    font-family: Arial, sans-serif; /* Шрифт текста */
+    color: #15a1ba81; /* Цвет текста (например, темно-серый) */
+    padding: 20px; /* Отступы внутри тела страницы */
+}
+h1 {
+    font-size: 50px; /* Размер шрифта заголовка h1 */
+    font-weight: bold; /* Полужирное начертание */
+    margin-bottom: 10px; /* Отступы снизу заголовка */
+  }
+  @keyframes color-change {
+    0% {
+      color: blue;
+    }
+    25%{
+      color:rgb(171, 33, 240);
+    }
+    
+    50% {
+      color: red;
+    }
+    75%{
+      color:blueviolet;
+    }
+    100% {
+      color: blue;
+    }
+}
+
+h1:hover {
+    animation: color-change 3s infinite;
+}
